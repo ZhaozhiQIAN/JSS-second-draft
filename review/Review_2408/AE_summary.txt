@@ -1,0 +1,6 @@
+AE report on JSS 2408 by Qian and Yu
+
+The reviewers both had concerns that would merit a major revision, but I have to say that the tone of their reviews seemed supportive.  I believe they both think the paper has potential, and this is better than some other recent reviews I’ve handled.  Thus, I recommend a major revision of the paper.
+
+One thing caught my eye, point 6 of Review2.txt.  This being JSS, the software manual part of the paper should be of high quality.  In your examples, I see things like list(1:5) and hardcoding of numbers like rep(0.5, 3).  I wonder if the numbers 5 and 3 can be deduced from context and could be eliminated.  Like ncol(gen1$ranking) would seem to get you the number 5, right?  Give the clarity of examples some thought.
+

@@ -1,0 +1,58 @@
+Weighted Distance-Based Models for Ranking Data Using the R Package rankdist
+This paper introduces the rankdist R package. It includes known probability models for permutations as well as a new model as the main contribution. 
+
+The fact that the normalization constant has a closed form expression is thrilling and also mathematically sound and some discussion on other models and mixture models is presented. However, I do not find the paper in its current form to be ready for publication and I suggest to perform a major revision. My main concerns are:
+
+(1) The lack of discussion on the motivation behind this (yet another!) distance based model The authors do not discuss the benefits of the new model. Specifically, what are the advantages of a distance based model w.r.t. the phi-component with a similar choice of parameters?
+    Kendal:
+    V: Phi-componet
+    * V+Q: relationship
+    (in advance: Phi model)
+(2) the proposed learning algorithm. 
+
+
+In what follows I list my concerns grouped by the sections 
+
+2.1
+    ADD Reference 
+The authors claim that two of the five distances introduced are metrics. If the other 3 are not (and I think they are) it should be argued. 
+
+The statement “Cayley distance has an intimate relationship with the Cayley graph in group theory” is false, specially regarding the definition of the Cayley graph the authors use afterwards. 
+
+The definition of the Hamming distance is confusing, not standard and computationally inefficient, the authors should motivate the reason for this choice. 
+    single summation
+
+2.2  
+“can have” a closed-form normalization constant: -> HAS
+
+    Pi notation change (Feng qing yuan)
+The statement “It can also be interpreted as the minimum number of adjacent transpositions required to transform pi to sigma “ is false, it is the inverse of pi to the inverse of sigma, and the authors should be careful about this since it is a source of recurrent misunderstandings. 
+
+2.4
+The distance introduced here also appear in (Kumar, R., & Vassilvitskii, S. (2010). Generalized distances between rankings. Proceedings of the 19th International Conference on World Wide Web - WWW ’10, (3), 571. http://doi.org/10.1145/1772690.1772749) and the authors seem to ignore this fact. 
+
+3
+A small discussion in the current paper regarding the fact that  the phi component model is not a distance based model should be included (not only referred to in this paper) since this is the motivation for the paper and the new model.
+
+    Name of distance: weighted Kendall distance
+The connections between (Farnoud and Milenkovic (2014) ) and the model in very interesting! maybe it deserves a “label” so in later paragraphs (for example, when the authors claim that “the distance term in the model can be computed efficiently,”) it can be properly referenced. 
+
+5.4 This is one of the most critical parts of the paper. 
+Is there any theoretical result on the complexity or the optimal pi_0 in the new model? or the quality of the approximation of the proposed algorithm?
+
+    Simulation mean rank = pi0
+Why not using Borda, which has been proven to be efficient and fast? Would not this strategy make the EM unnecessary, at least in the case of one cluster?
+# real data => no true pi0
+The results on section 7.2 are not conclusive as to be used as an argument here. Moreover, the efficiency of the learning algorithm compromises the efficiency of the whole model here since the number of neighbours w.r.t the Cayley distance is n(n-1) and w.r.t Kendall is n-1.
+
+    # what is large? (>10) (t object and n data) practice: more than one solution.
+In the abstract the authors claim that “the model parameters can be obtained efficiently even for ranking involving a large number of objects”. This is difficult to tell regarding the documentation of the manual and the included experiments. How large can be rankings be? do the authors consider rankings on 10-15 items (as those experiments in sec7.2) to be large?
+
+6
+The manual is just helpful to run the toy example the author propose, which uses rankings of 5 items. Running an example of n!=5 items needs a lot more work (not shown in the manual, at least). I would like to see a manual which introduces the package while allows one to play with the parameters, ranking sizes, model parameters, …
+
+7.2 
+The authors  claim “we test (1) whether the weighted Kendall distance model fitted by the greedy search scales up well and (2) provides reasonable results.”
+I do not agree with point (1) since rankings of 10 items are not big enough to see how the algorithms scale. Moreover, no information is given regarding the samples.
+Despite I could agree with point (2), the authors conclude the section claiming that “weighted Kendall distance model generally performs better than Borda Count methods in aggregating rankings”. This statement is WAY too ambitious: the table shows that the aggregation results are sometimes better and sometimes worse than Borda and definitely not significant improvement is obtained. the expression “reasonable results” seems more realistic. 
+

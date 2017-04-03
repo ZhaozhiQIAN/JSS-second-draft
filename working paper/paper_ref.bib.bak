@@ -1,0 +1,306 @@
+% This file was created with JabRef 2.10b3.
+% Encoding: GBK
+
+
+@Book{AlvoYu2014,
+  Title                    = {Statistical Methods for Ranking Data},
+  Author                   = {Alvo, M. and Yu, Philip L. H.},
+  Publisher                = {Springer},
+  Year                     = {2014},
+
+  Owner                    = {yu},
+  Timestamp                = {2014.06.19}
+}
+
+@Article{KemedyNP,
+  Title                    = {Voting Schemes for Which It Can Be Difficult to Tell Who Won the Election},
+  Author                   = {Bartholdi, J., III and Tovey, C.A. and Trick, M.A.},
+  Journal                  = {Social Choice and Welfare},
+  Year                     = {1989},
+  Number                   = {2},
+  Pages                    = {157-165},
+  Volume                   = {6},
+
+  Doi                      = {10.1007/BF00303169},
+  ISSN                     = {0176-1714},
+  Language                 = {English},
+  Publisher                = {Springer-Verlag},
+  Url                      = {http://dx.doi.org/10.1007/BF00303169}
+}
+
+@TechReport{Critchlow1986,
+  Title                    = {A Unified Approach to Constructing Nonparametric Rank Tests},
+  Author                   = {Critchlow, D.},
+  Institution              = {Department of Statistics, Purdue University},
+  Year                     = {1986},
+  Number                   = {86-15},
+
+  Owner                    = {malvo},
+  Timestamp                = {2013.08.16}
+}
+
+@Manual{mlogit,
+  Title                    = {\pkg{mlogit}: Multinomial Logit Model},
+  Author                   = {Yves Croissant},
+  Note                     = {{\proglang{R}~package version~ 0.2-4}},
+  Year                     = {2013},
+
+  Owner                    = {Steven},
+  Timestamp                = {2015.10.10},
+  Url                      = {https://cran.r-project.org/web/packages/mlogit}
+}
+
+@Book{Diaconis1988,
+  Title                    = {Group Representations in Probability and Statistics},
+  Author                   = {P. Diaconis},
+  Publisher                = {Institute of Mathematical Statistics},
+  Year                     = {1988},
+
+  Address                  = {Hayward},
+
+  Owner                    = {yu},
+  Timestamp                = {2012.06.19}
+}
+
+@Article{farnoud2014axiomatic,
+  Title                    = {An Axiomatic Approach to Constructing Distances for Rank Comparison and Aggregation},
+  Author                   = {Farnoud, Farzad and Milenkovic, Olgica},
+  Journal                  = {IEEE Transactions on Information Theory},
+  Year                     = {2014},
+  Number                   = {10},
+  Pages                    = {6417--6439},
+  Volume                   = {60},
+
+  Publisher                = {IEEE}
+}
+
+@Article{Fligner1988,
+  Title                    = {Multi-stage Ranking Models},
+  Author                   = {M. A. Fligner and J. S. Verducci},
+  Journal                  = {Journal of the American Statistical Association},
+  Year                     = {1988},
+  Pages                    = {892-901},
+  Volume                   = {83},
+
+  Owner                    = {yu},
+  Timestamp                = {2012.06.19}
+}
+
+@Article{Fligner1986,
+  Title                    = {Distance-based Ranking Models},
+  Author                   = {M. A. Fligner and J. S. Verducci},
+  Journal                  = {Journal of the Royal Statistical Society Series B},
+  Year                     = {1986},
+  Number                   = {3},
+  Pages                    = {359-369},
+  Volume                   = {48},
+
+  Owner                    = {yu},
+  Timestamp                = {2012.06.19}
+}
+
+@Manual{Rankcluster,
+  Title                    = {\pkg{Rankcluster}: Model-based Clustering for Multivariate Partial Ranking Data},
+  Author                   = {Quentin Grimonprez and Julien Jacques},
+  Note                     = {{\proglang{R}~package version~ 0.92-9}},
+  Year                     = {2014},
+
+  Owner                    = {Steven},
+  Timestamp                = {2015.10.10},
+  Url                      = {https://cran.r-project.org/web/packages/Rankcluster}
+}
+
+@Manual{PerMallows,
+  Title                    = {\pkg{PerMallows}: Permutations and Mallows Distributions},
+  Author                   = {Ekhine Irurozki},
+  Note                     = {{\proglang{R}~package version~ 1.8}},
+  Year                     = {2015},
+
+  Owner                    = {Steven},
+  Timestamp                = {2015.10.10},
+  Url                      = {https://cran.r-project.org/web/packages/PerMallows}
+}
+
+@TechReport{ISR,
+  Title                    = {Model-based Clustering for Multivariate Partial Ranking Data},
+  Author                   = {Julien Jacques and Christophe Biernacki},
+  Institution              = {Inria Research},
+  Year                     = {2012},
+  Number                   = {n 8113},
+
+  Owner                    = {Steven},
+  Timestamp                = {2015.10.10}
+}
+
+@Article{Joe2001,
+  Title                    = {Multivariate Extreme Value Distributions and Coverage of Ranking Probabilities},
+  Author                   = {Joe, H.},
+  Journal                  = {Journal of Mathematical Psychology},
+  Year                     = {2001},
+  Pages                    = {180-188},
+  Volume                   = {45},
+
+  __markedentry            = {[yu:6]},
+  Owner                    = {yu},
+  Timestamp                = {2013.07.17}
+}
+
+@InProceedings{Klementiev2008,
+  Title                    = {Unsupervised Rank Aggregation with Distance-based Models},
+  Author                   = {Alexandre Klementiev and Dan Roth and Kevin Small},
+  Booktitle                = {Proceedings of the 25th International Conference on Machine Learning, Helsinki, Finland},
+  Year                     = {2008},
+
+  Owner                    = {plhyu},
+  Timestamp                = {2015.09.25}
+}
+
+@Article{lee2014cognitive,
+  Title                    = {A Cognitive Model for Aggregating People's Rankings},
+  Author                   = {Lee, Michael D and Steyvers, Mark and Miller, Brent},
+  Journal                  = {PloS one},
+  Year                     = {2014},
+  Number                   = {5},
+  Pages                    = {e96431},
+  Volume                   = {9},
+
+  Publisher                = {Public Library of Science}
+}
+
+@Manual{pmr,
+  Title                    = {\pkg{pmr}: Probability Models for Ranking Data},
+  Author                   = {Paul H. Lee and Philip L. H. Yu},
+  Note                     = {{\proglang{R}~package version~1.2-5}},
+  Year                     = {2015},
+
+  Owner                    = {Steven},
+  Timestamp                = {2015.10.10},
+  Url                      = {https://cran.r-project.org/web/packages/pmr}
+}
+
+@Article{LeeYu2012,
+  Title                    = {Mixtures of Weighted Distance-based Models for Ranking Data with Applications in Political Studies},
+  Author                   = {Lee, P. H. and Yu, P. L. H.},
+  Journal                  = {Computational Statistics and Data Analysis},
+  Year                     = {2012},
+  Pages                    = {2486-2500},
+  Volume                   = {56},
+
+  Owner                    = {malvo},
+  Timestamp                = {2013.10.14}
+}
+
+@Book{Luce1959,
+  Title                    = {Individual Choice Behavior},
+  Author                   = {R. D. Luce},
+  Publisher                = {New York: Wiley},
+  Year                     = {1959},
+
+  Owner                    = {yu},
+  Timestamp                = {2012.06.19}
+}
+
+@Article{Mallows1957,
+  Title                    = {Non-null Ranking Models},
+  Author                   = {C. L. Mallows},
+  Journal                  = {Biometrika},
+  Year                     = {1957},
+  Pages                    = {114--130},
+  Volume                   = {44},
+
+  Owner                    = {yu},
+  Timestamp                = {2012.06.19}
+}
+
+@Book{Marden1995a,
+  Title                    = {Analyzing and Modeling Rank Data},
+  Author                   = {Marden, J. I.},
+  Publisher                = {Chapman Hall, New York},
+  Year                     = {1995},
+
+  Owner                    = {malvo},
+  Timestamp                = {2012.06.19}
+}
+
+@Article{meila2012consensus,
+  Title                    = {Consensus Ranking under the Exponential Model},
+  Author                   = {Meila, Marina and Phadnis, Kapil and Patterson, Arthur and Bilmes, Jeff A},
+  Journal                  = {arXiv preprint arXiv:1206.5265},
+  Year                     = {2012},
+
+  Owner                    = {Steven},
+  Timestamp                = {2015.07.25}
+}
+
+@Article{Murphy2003,
+  Title                    = {Mixtures of distance-based models for ranking data},
+  Author                   = {T. B. Murphy and D. Martin},
+  Journal                  = {Computational Statistics and Data Analysis},
+  Year                     = {2003},
+  Pages                    = {645--655},
+  Volume                   = {41},
+
+  Owner                    = {yu},
+  Timestamp                = {2012.06.19}
+}
+
+@Article{nash2011unifying,
+  Title                    = {Unifying Optimization Algorithms to Aid Software System Users: Optimx for R},
+  Author                   = {Nash, John C and Varadhan, Ravi},
+  Journal                  = {Journal of Statistical Software},
+  Year                     = {2011},
+  Number                   = {9},
+  Pages                    = {1--14},
+  Volume                   = {43}
+}
+
+@Article{Smith1950,
+  Title                    = {Discussion of Professor Ross's Paper},
+  Author                   = {B. Babington Smith},
+  Journal                  = {Journal of the Royal Statistical Society Series B},
+  Year                     = {1950},
+  Pages                    = {53--56},
+  Volume                   = {12},
+
+  Owner                    = {yu},
+  Timestamp                = {2012.06.19}
+}
+
+@Manual{R,
+  Title                    = {R: A Language and Environment for Statistical Computing},
+
+  Address                  = {Vienna, Austria},
+  Author                   = {R Core Team},
+  Organization             = {R Foundation for Statistical Computing},
+  Year                     = {2014},
+
+  Owner                    = {Steven},
+  Timestamp                = {2015.07.25},
+  Url                      = {http://www.R-project.org/}
+}
+
+@Article{Thurstone1927,
+  Title                    = {A Law of Comparative Judgement},
+  Author                   = {L. L. Thurstone},
+  Journal                  = {Psychological Reviews},
+  Year                     = {1927},
+  Pages                    = {273--286},
+  Volume                   = {34},
+
+  Owner                    = {yu},
+  Timestamp                = {2012.06.19}
+}
+
+@Article{Yu2000,
+  Title                    = {Bayesian Analysis of Order-statistics Models for Ranking Data},
+  Author                   = {P. L. H. Yu},
+  Journal                  = {Psychometrika},
+  Year                     = {2000},
+  Number                   = {3},
+  Pages                    = {281--299},
+  Volume                   = {65},
+
+  Owner                    = {yu},
+  Timestamp                = {2012.06.19}
+}
+

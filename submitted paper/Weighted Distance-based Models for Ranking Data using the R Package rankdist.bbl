@@ -1,0 +1,163 @@
+\begin{thebibliography}{25}
+\newcommand{\enquote}[1]{``#1''}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{Alvo and Yu(2014)}]{AlvoYu2014}
+Alvo M, Yu PLH (2014).
+\newblock \emph{Statistical Methods for Ranking Data}.
+\newblock Springer-Verlag.
+
+\bibitem[{Bartholdi \emph{et~al.}(1989)Bartholdi, Tovey, and Trick}]{KemedyNP}
+Bartholdi J I, Tovey C, Trick M (1989).
+\newblock \enquote{Voting Schemes for Which It Can Be Difficult to Tell Who Won
+  the Election.}
+\newblock \emph{Social Choice and Welfare}, \textbf{6}(2), 157--165.
+\newblock ISSN 0176-1714.
+\newblock \doi{10.1007/BF00303169}.
+\newblock \urlprefix\url{http://dx.doi.org/10.1007/BF00303169}.
+
+\bibitem[{Critchlow(1986)}]{Critchlow1986}
+Critchlow D (1986).
+\newblock \enquote{A Unified Approach to Constructing Nonparametric Rank
+  Tests.}
+\newblock \emph{Technical Report 86-15}, Department of Statistics, Purdue
+  University.
+
+\bibitem[{Croissant(2013)}]{mlogit}
+Croissant Y (2013).
+\newblock \emph{\pkg{mlogit}: Multinomial Logit Model}.
+\newblock {\proglang{R}~package version~ 0.2-4},
+  \urlprefix\url{https://cran.r-project.org/web/packages/mlogit}.
+
+\bibitem[{Diaconis(1988)}]{Diaconis1988}
+Diaconis P (1988).
+\newblock \emph{Group Representations in Probability and Statistics}.
+\newblock Institute of Mathematical Statistics, Hayward.
+
+\bibitem[{Farnoud and Milenkovic(2014)}]{farnoud2014axiomatic}
+Farnoud F, Milenkovic O (2014).
+\newblock \enquote{An Axiomatic Approach to Constructing Distances for Rank
+  Comparison and Aggregation.}
+\newblock \emph{IEEE Transactions on Information Theory}, \textbf{60}(10),
+  6417--6439.
+
+\bibitem[{Fligner and Verducci(1986)}]{Fligner1986}
+Fligner MA, Verducci JS (1986).
+\newblock \enquote{Distance-based Ranking Models.}
+\newblock \emph{Journal of the Royal Statistical Society Series B},
+  \textbf{48}(3), 359--369.
+
+\bibitem[{Fligner and Verducci(1988)}]{Fligner1988}
+Fligner MA, Verducci JS (1988).
+\newblock \enquote{Multi-stage Ranking Models.}
+\newblock \emph{Journal of the American Statistical Association}, \textbf{83},
+  892--901.
+
+\bibitem[{Grimonprez and Jacques(2014)}]{Rankcluster}
+Grimonprez Q, Jacques J (2014).
+\newblock \emph{\pkg{Rankcluster}: Model-based Clustering for Multivariate
+  Partial Ranking Data}.
+\newblock {\proglang{R}~package version~ 0.92-9},
+  \urlprefix\url{https://cran.r-project.org/web/packages/Rankcluster}.
+
+\bibitem[{Irurozki(2015)}]{PerMallows}
+Irurozki E (2015).
+\newblock \emph{\pkg{PerMallows}: Permutations and Mallows Distributions}.
+\newblock {\proglang{R}~package version~ 1.8},
+  \urlprefix\url{https://cran.r-project.org/web/packages/PerMallows}.
+
+\bibitem[{Jacques and Biernacki(2012)}]{ISR}
+Jacques J, Biernacki C (2012).
+\newblock \enquote{Model-based Clustering for Multivariate Partial Ranking
+  Data.}
+\newblock \emph{Technical Report n 8113}, Inria Research.
+
+\bibitem[{Joe(2001)}]{Joe2001}
+Joe H (2001).
+\newblock \enquote{Multivariate Extreme Value Distributions and Coverage of
+  Ranking Probabilities.}
+\newblock \emph{Journal of Mathematical Psychology}, \textbf{45}, 180--188.
+
+\bibitem[{Klementiev \emph{et~al.}(2008)Klementiev, Roth, and
+  Small}]{Klementiev2008}
+Klementiev A, Roth D, Small K (2008).
+\newblock \enquote{Unsupervised Rank Aggregation with Distance-based Models.}
+\newblock In \emph{Proceedings of the 25th International Conference on Machine
+  Learning, Helsinki, Finland}.
+
+\bibitem[{Lee \emph{et~al.}(2014)Lee, Steyvers, and Miller}]{lee2014cognitive}
+Lee MD, Steyvers M, Miller B (2014).
+\newblock \enquote{A Cognitive Model for Aggregating People's Rankings.}
+\newblock \emph{PloS one}, \textbf{9}(5), e96431.
+
+\bibitem[{Lee and Yu(2012)}]{LeeYu2012}
+Lee PH, Yu PLH (2012).
+\newblock \enquote{Mixtures of Weighted Distance-based Models for Ranking Data
+  with Applications in Political Studies.}
+\newblock \emph{Computational Statistics and Data Analysis}, \textbf{56},
+  2486--2500.
+
+\bibitem[{Lee and Yu(2015)}]{pmr}
+Lee PH, Yu PLH (2015).
+\newblock \emph{\pkg{pmr}: Probability Models for Ranking Data}.
+\newblock {\proglang{R}~package version~1.2-5},
+  \urlprefix\url{https://cran.r-project.org/web/packages/pmr}.
+
+\bibitem[{Luce(1959)}]{Luce1959}
+Luce RD (1959).
+\newblock \emph{Individual Choice Behavior}.
+\newblock John Wiley \& Sons, New York.
+
+\bibitem[{Mallows(1957)}]{Mallows1957}
+Mallows CL (1957).
+\newblock \enquote{Non-null Ranking Models.}
+\newblock \emph{Biometrika}, \textbf{44}, 114--130.
+
+\bibitem[{Marden(1995)}]{Marden1995a}
+Marden JI (1995).
+\newblock \emph{Analyzing and Modeling Rank Data}.
+\newblock Chapman Hall, New York.
+
+\bibitem[{Murphy and Martin(2003)}]{Murphy2003}
+Murphy TB, Martin D (2003).
+\newblock \enquote{Mixtures of distance-based models for ranking data.}
+\newblock \emph{Computational Statistics and Data Analysis}, \textbf{41},
+  645--655.
+
+\bibitem[{Nash and Varadhan(2011)}]{nash2011unifying}
+Nash JC, Varadhan R (2011).
+\newblock \enquote{Unifying Optimization Algorithms to Aid Software System
+  Users: Optimx for R.}
+\newblock \emph{Journal of Statistical Software}, \textbf{43}(9), 1--14.
+
+\bibitem[{Smith(1950)}]{Smith1950}
+Smith BB (1950).
+\newblock \enquote{Discussion of Professor Ross's Paper.}
+\newblock \emph{Journal of the Royal Statistical Society Series B},
+  \textbf{12}, 53--56.
+
+\bibitem[{Team(2014)}]{R}
+Team RC (2014).
+\newblock \emph{R: A Language and Environment for Statistical Computing}.
+\newblock R Foundation for Statistical Computing, Vienna, Austria.
+\newblock \urlprefix\url{http://www.R-project.org/}.
+
+\bibitem[{Thurstone(1927)}]{Thurstone1927}
+Thurstone LL (1927).
+\newblock \enquote{A Law of Comparative Judgement.}
+\newblock \emph{Psychological Reviews}, \textbf{34}, 273--286.
+
+\bibitem[{Yu(2000)}]{Yu2000}
+Yu PLH (2000).
+\newblock \enquote{Bayesian Analysis of Order-statistics Models for Ranking
+  Data.}
+\newblock \emph{Psychometrika}, \textbf{65}(3), 281--299.
+
+\end{thebibliography}
