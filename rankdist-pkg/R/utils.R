@@ -37,6 +37,7 @@ AddInfo=function(solveres,dat,pi0){
 }
 
 # neighbour for incomplete rankings
+# General
 SearchPi0=function(dat,init,ctrl){
 #     if (class(ctrl)=="RankControlWtau"){
 #       mod <- SingleClusterModel(dat,init,ctrl,0)
@@ -103,6 +104,90 @@ SearchPi0=function(dat,init,ctrl){
     curr_model$SearchPi0_step = SearchPi0_step 
     curr_model
 }
+
+## Weighted Kendall only
+EvalLogLik = function(dat,init,ctrl,curr_best_ranking){
+    param_len = max(dat@topq)
+    param.coeff = CWeightGivenPi(dat@ranking,curr_best_ranking)
+    param.coeff = matrix(param.coeff,ncol = dat@ndistinct,byrow = TRUE) %*% dat@count
+    param.coeff = as.numeric(param.coeff)[1:param_len]
+    param.est = init@param.init[[init@clu]][1:param_len]
+    
+    obj = function(param) {
+        a = -1 * param %*% param.coeff - dat@nobs * LogC(c(param,rep(0,dat@nobj - 1 - param_len)))
+        as.numeric(-1 * a)
+    }
+    
+    log_likelihood = -1 * obj(param.est)
+    
+    list(
+        param.est = param.est,w.est = paramTow(param.est),log_likelihood = log_likelihood
+    )
+}
+
+## Weighted Kendall only
+SearchPi0GivenW=function(dat,init,ctrl){
+    n = dat@nobj
+    curr_best_ranking = init@modal_ranking.init[[1]] 
+    if (ctrl@SearchPi0_show_message){
+        message("<<< initial ranking ",curr_best_ranking," >>>")
+    }
+    if (max(dat@topq) < n-1){
+        curr_best_ranking[curr_best_ranking>max(dat@topq)+1]=max(dat@topq)+1
+    }
+    curr_solve <- EvalLogLik(dat,init,ctrl,curr_best_ranking)
+    curr_model = AddInfo(curr_solve,dat,curr_best_ranking)
+    FUN = ctrl@SearchPi0_FUN
+    curr_goodness = FUN(curr_model)
+    hashtable = hash::hash()
+    hash::.set(hashtable,keys = RanktoHash(curr_best_ranking),values=TRUE)
+    SearchPi0_step = 0
+    while(TRUE){
+        SearchPi0_step = SearchPi0_step+1
+        if (SearchPi0_step > ctrl@SearchPi0_limit){
+            if (ctrl@SearchPi0_show_message){
+                message("Search Pi0 limit has been reached. Stop at current best: ",this_ranking)
+            }
+            break
+        }
+        if (ctrl@SearchPi0_neighbour=="Cayley"){
+            neighbours = CayleyNeighbour(curr_best_ranking)
+        } else {
+            neighbours = KendallNeighbour(curr_best_ranking)
+        }
+        testkeys = RanktoHash(neighbours)
+        tested = hash::has.key(testkeys,hashtable)
+        if (all(tested)) break
+        hash::.set(hashtable,keys=testkeys[!tested],values=rep(TRUE,length(testkeys[!tested])))
+        for (i in 1:nrow(neighbours)){
+            # tested neighbours cannot be better
+            if (tested[i]) next
+            this_ranking = neighbours[i,]
+            if (ctrl@SearchPi0_show_message){
+                message("\tNow Checking Neighbour ",this_ranking)
+            }
+            this_solve <- EvalLogLik(dat,init,ctrl,this_ranking)
+            this_model = AddInfo(this_solve,dat,this_ranking)
+            this_goodness = FUN(this_model)
+            if (this_goodness > curr_goodness){
+                curr_goodness = this_goodness
+                curr_best_ranking = this_ranking
+                curr_model = this_model
+                if (ctrl@SearchPi0_show_message){
+                    message("***Best changed to ",curr_best_ranking,"***")
+                }
+                if (ctrl@SearchPi0_fast_traversal)
+                    break
+            }
+        }
+        if (ctrl@SearchPi0_show_message){
+            message("--> Moved to ",curr_best_ranking," <--")
+        }
+    }
+    curr_model$SearchPi0_step = SearchPi0_step 
+    curr_model
+}
+
 
 # TODO need to change: does not work for d==1
 t.gen = function(d){

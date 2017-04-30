@@ -381,7 +381,7 @@ MomentsEst <- function(dat,size,pi0=NULL){
     }
     param.est <- stats::lm(logodd~design_mat-1)
     param.est <- param.est$coefficients
-    param.est[param.est<0] <- 0
+    param.est[param.est<0] <- 1e-5
     names(param.est) <- NULL
     param.est
 }
