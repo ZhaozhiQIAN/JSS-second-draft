@@ -1,4 +1,4 @@
-\begin{thebibliography}{25}
+\begin{thebibliography}{27}
 \newcommand{\enquote}[1]{``#1''}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
@@ -40,6 +40,13 @@ Croissant Y (2013).
 Diaconis P (1988).
 \newblock \emph{Group Representations in Probability and Statistics}.
 \newblock Institute of Mathematical Statistics, Hayward.
+
+\bibitem[{Dwork \emph{et~al.}(2001)Dwork, Kumar, Naor, and
+  Sivakumar}]{dwork2001rank}
+Dwork C, Kumar R, Naor M, Sivakumar D (2001).
+\newblock \enquote{Rank aggregation methods for the web.}
+\newblock In \emph{Proceedings of the 10th international conference on World
+  Wide Web}, pp. 613--622. ACM.
 
 \bibitem[{Farnoud and Milenkovic(2014)}]{farnoud2014axiomatic}
 Farnoud F, Milenkovic O (2014).
@@ -153,6 +160,11 @@ Team RC (2014).
 Thurstone LL (1927).
 \newblock \enquote{A Law of Comparative Judgement.}
 \newblock \emph{Psychological Reviews}, \textbf{34}, 273--286.
+
+\bibitem[{Young(1974)}]{young1974axiomatization}
+Young HP (1974).
+\newblock \enquote{An axiomatization of Borda's rule.}
+\newblock \emph{Journal of economic theory}, \textbf{9}(1), 43--52.
 
 \bibitem[{Yu(2000)}]{Yu2000}
 Yu PLH (2000).

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.12.26)  3 APR 2017 20:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.12.26)  6 MAY 2017 17:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -519,12 +519,77 @@ LaTeX Info: Redefining \nameref on input line 113.
 (./Weighted Distance-based Models for Ranking Data using the R Package rankdist
 .out)
 (./Weighted Distance-based Models for Ranking Data using the R Package rankdist
-.out)
+.out
+! Missing \endcsname inserted.
+<to be read again> 
+                   \pi 
+l.11 ... 0}{Subsection.3.2.Parameter estimation.2}
+                                                  % 11
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \pi 
+l.11 ... 0}{Subsection.3.2.Parameter estimation.2}
+                                                  % 11
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \B_Subsubsection.3.3.0.Estimating central ranking $ 
+l.11 ... 0}{Subsection.3.2.Parameter estimation.2}
+                                                  % 11
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing { inserted.
+<to be read again> 
+                   \pi 
+l.11 ... 0}{Subsection.3.2.Parameter estimation.2}
+                                                  % 11
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \pi 
+l.13 ...ly}{Subsection.3.2.Parameter estimation.2}
+                                                  % 13
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \pi 
+l.13 ...ly}{Subsection.3.2.Parameter estimation.2}
+                                                  % 13
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+)
+Runaway text?
+\pi _{0}$.3\endcsname {Estimating central ranking 0}\let \reserved@d \ETC.
+! File ended while scanning text of \B_Subsubsection.3.3.0.Estimating central r
+anking $.
+<inserted text> 
+                }
+l.113 \begin{document}
+                      
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
 \@outlinefile=\write4
 \openout4 = `"Weighted Distance-based Models for Ranking Data using the R Packa
 ge rankdist.out"'.
 
- <jsslogo.jpg, id=112, 540.0175pt x 393.47pt>
+<jsslogo.jpg, id=48, 540.0175pt x 393.47pt>
 File: jsslogo.jpg Graphic file (type jpg)
  <use jsslogo.jpg>
 Package pdftex.def Info: jsslogo.jpg used on input line 113.
@@ -589,7 +654,7 @@ Overfull \hbox (5.47499pt too wide) has occurred while \output is active
 [] \T1/aer/m/n/10.95 5
  []
 
-[5] <insert2.png, id=239, 448.074pt x 448.074pt>
+[5] <insert2.png, id=175, 448.074pt x 448.074pt>
 File: insert2.png Graphic file (type png)
  <use insert2.png>
 Package pdftex.def Info: insert2.png used on input line 432.
@@ -604,6 +669,23 @@ Overfull \hbox (5.47499pt too wide) has occurred while \output is active
  []
 
 [6]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 467.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\pi' on input line 467.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 467.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 467.
+
+
 Overfull \hbox (5.47499pt too wide) has occurred while \output is active
 [] \T1/aer/m/n/10.95 7
  []
@@ -613,64 +695,91 @@ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.480 \]
-         <./insert2.png>]
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 507.
+l.485 
+       <./insert2.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 526.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 526.
+
 
 Overfull \hbox (5.47499pt too wide) has occurred while \output is active
 \T1/aer/m/n/10.95 8 []
  []
 
 [8]
-LaTeX Font Info:    Try loading font information for T1+aett on input line 579.
 
- (/usr/share/texlive/texmf-dist/tex/latex/ae/t1aett.fd
-File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
-)
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 563.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\pi' on input line 563.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 563.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 563.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 563.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 563.
+
+
 Overfull \hbox (5.47499pt too wide) has occurred while \output is active
 [] \T1/aer/m/n/10.95 9
  []
 
-[9] <flowchart.png, id=296, 882.29625pt x 915.42pt>
-File: flowchart.png Graphic file (type png)
- <use flowchart.png>
-Package pdftex.def Info: flowchart.png used on input line 691.
-(pdftex.def)             Requested size: 441.14705pt x 457.70888pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \vbox (badness 1147) has occurred while \output is active []
-
+[9]
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
+put line 638.
 
 Overfull \hbox (10.94998pt too wide) has occurred while \output is active
 \T1/aer/m/n/10.95 10 []
  []
 
 [10]
+LaTeX Font Info:    Try loading font information for T1+aett on input line 710.
+
+ (/usr/share/texlive/texmf-dist/tex/latex/ae/t1aett.fd
+File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
+)
 Overfull \hbox (10.94998pt too wide) has occurred while \output is active
 [] \T1/aer/m/n/10.95 11
  []
 
-[11pdfTeX warning (ext4): destination with the same identifier (name{figure.2})
- has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.724 \[
-         <./flowchart.png>]
+[11]
 Overfull \hbox (10.94998pt too wide) has occurred while \output is active
 \T1/aer/m/n/10.95 12 []
  []
 
-[12]
+[12] <flowchart.png, id=282, 882.29625pt x 915.42pt>
+File: flowchart.png Graphic file (type png)
+ <use flowchart.png>
+Package pdftex.def Info: flowchart.png used on input line 822.
+(pdftex.def)             Requested size: 441.14705pt x 457.70888pt.
+
 Overfull \hbox (10.94998pt too wide) has occurred while \output is active
 [] \T1/aer/m/n/10.95 13
  []
 
-[13]
+[13pdfTeX warning (ext4): destination with the same identifier (name{figure.2})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.848 
+       <./flowchart.png>]
 Overfull \hbox (10.94998pt too wide) has occurred while \output is active
 \T1/aer/m/n/10.95 14 []
  []
@@ -681,87 +790,94 @@ Overfull \hbox (10.94998pt too wide) has occurred while \output is active
  []
 
 [15]
-LaTeX Font Info:    Try loading font information for TS1+aer on input line 1017
-.
- (/usr/share/texmf/tex/latex/R/tex/latex/ts1aer.fd
-File: ts1aer.fd 
-)
-LaTeX Font Info:    Font shape `TS1/aer/m/n' in size <10.95> not available
-(Font)              Font shape `TS1/cmr/m/n' tried instead on input line 1017.
-
 Overfull \hbox (10.94998pt too wide) has occurred while \output is active
 \T1/aer/m/n/10.95 16 []
  []
 
 [16]
-Overfull \hbox (39.12021pt too wide) in paragraph at lines 1107--1139
- [][] 
- []
-
-
 Overfull \hbox (10.94998pt too wide) has occurred while \output is active
 [] \T1/aer/m/n/10.95 17
  []
 
-[17pdfTeX warning (ext4): destination with the same identifier (name{table.1}) 
+[17]
+LaTeX Font Info:    Try loading font information for TS1+aer on input line 1148
+.
+ (/usr/share/texmf/tex/latex/R/tex/latex/ts1aer.fd
+File: ts1aer.fd 
+)
+LaTeX Font Info:    Font shape `TS1/aer/m/n' in size <10.95> not available
+(Font)              Font shape `TS1/cmr/m/n' tried instead on input line 1148.
+
+Overfull \hbox (10.94998pt too wide) has occurred while \output is active
+\T1/aer/m/n/10.95 18 []
+ []
+
+[18]
+Overfull \hbox (10.94998pt too wide) has occurred while \output is active
+[] \T1/aer/m/n/10.95 19
+ []
+
+[19pdfTeX warning (ext4): destination with the same identifier (name{table.1}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1157 
-       ] <MDS_APA.png, id=376, 481.8pt x 481.8pt>
+l.1235 
+       ]
+Overfull \hbox (39.12021pt too wide) in paragraph at lines 1238--1270
+ [][] 
+ []
+
+<MDS_APA.png, id=357, 481.8pt x 481.8pt>
 File: MDS_APA.png Graphic file (type png)
  <use MDS_APA.png>
-Package pdftex.def Info: MDS_APA.png used on input line 1160.
+Package pdftex.def Info: MDS_APA.png used on input line 1291.
 (pdftex.def)             Requested size: 289.08221pt x 289.08221pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Overfull \hbox (10.94998pt too wide) has occurred while \output is active
-\T1/aer/m/n/10.95 18 []
+\T1/aer/m/n/10.95 20 []
  []
 
-[18pdfTeX warning (ext4): destination with the same identifier (name{table.2}) 
+[20pdfTeX warning (ext4): destination with the same identifier (name{table.2}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1210 
+l.1341 
        ]
 Overfull \hbox (10.94998pt too wide) has occurred while \output is active
-[] \T1/aer/m/n/10.95 19
+[] \T1/aer/m/n/10.95 21
  []
 
-[19pdfTeX warning (ext4): destination with the same identifier (name{figure.3})
+[21pdfTeX warning (ext4): destination with the same identifier (name{figure.3})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1244 
+l.1375 
        pdfTeX warning (ext4): destination with the same identifier (name{table.
 3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1244 
+l.1375 
        pdfTeX warning (ext4): destination with the same identifier (name{table.
 4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1244 
+l.1375 
         <./MDS_APA.png>]
 Overfull \hbox (10.94998pt too wide) has occurred while \output is active
-\T1/aer/m/n/10.95 20 []
+\T1/aer/m/n/10.95 22 []
  []
 
-[20]
-Overfull \hbox (5.3914pt too wide) in paragraph at lines 1378--1384
+[22]
+Overfull \hbox (5.3914pt too wide) in paragraph at lines 1509--1515
 []\T1/aer/m/n/10.95 We found that the com-pu-ta-tion time for model-fitting pro
 -ce-dure is dom-i-nated by the neighbour-
  []
@@ -771,15 +887,15 @@ Underfull \vbox (badness 3088) has occurred while \output is active []
 
 
 Overfull \hbox (10.94998pt too wide) has occurred while \output is active
-[] \T1/aer/m/n/10.95 21
+[] \T1/aer/m/n/10.95 23
  []
 
-[21pdfTeX warning (ext4): destination with the same identifier (name{table.5}) 
+[23pdfTeX warning (ext4): destination with the same identifier (name{table.5}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1391 
+l.1522 
        ]
 (./Weighted Distance-based Models for Ranking Data using the R Package rankdist
 .bbl
@@ -787,61 +903,53 @@ LaTeX Font Info:    Font shape `T1/aer/b/it' in size <10.95> not available
 (Font)              Font shape `T1/aer/bx/it' tried instead on input line 35.
 
 Overfull \hbox (10.94998pt too wide) has occurred while \output is active
-\T1/aer/m/n/10.95 22 []
+\T1/aer/m/n/10.95 24 []
  []
 
-[22])
+[24])
 Overfull \hbox (10.94998pt too wide) has occurred while \output is active
-[] \T1/aer/m/n/10.95 23
+[] \T1/aer/m/n/10.95 25
  []
 
-[23]
-Overfull \hbox (15.11162pt too wide) detected at line 1447
+[25]
+Overfull \hbox (15.11162pt too wide) detected at line 1578
 [] [] [] \OT1/cmr/m/n/10.95 = [] (1 + \OML/cmm/m/it/10.95 e[] \OT1/cmr/m/n/10.9
 5 + \OML/cmm/m/it/10.95 e[]\OT1/cmr/m/n/10.95 )\OML/cmm/m/it/10.95 :
  []
 
 
 Overfull \hbox (10.94998pt too wide) has occurred while \output is active
-\T1/aer/m/n/10.95 24 []
+\T1/aer/m/n/10.95 26 []
  []
 
-[24]
+[26]
 LaTeX Font Info:    Font shape `T1/pzc/m/n' in size <13> not available
-(Font)              Font shape `T1/pzc/mb/it' tried instead on input line 1483.
+(Font)              Font shape `T1/pzc/mb/it' tried instead on input line 1614.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1483.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1614.
 
 Overfull \hbox (10.94998pt too wide) has occurred while \output is active
-[] \T1/aer/m/n/10.95 25
+[] \T1/aer/m/n/10.95 27
  []
 
-[25]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1483.
+[27]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1614.
 
 (./Weighted Distance-based Models for Ranking Data using the R Package rankdist
 .aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1483.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1483.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1614.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1614.
 
-
-
-Package rerunfilecheck Warning: File `"Weighted Distance-based Models for Ranki
-ng Data using the R Package rankdist".out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `"Weighted Distance-based Models for
- Ranking Data using the R Package rankdist".out':
-(rerunfilecheck)             Before: D310BB486ECD3D103E660BA0D4D1D9D2;3190
-(rerunfilecheck)             After:  876BDE1749950148E96144D7AC5C2291;3163.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1483.
+Package rerunfilecheck Info: File `"Weighted Distance-based Models for Ranking 
+Data using the R Package rankdist".out' has not changed.
+(rerunfilecheck)             Checksum: C99CD8445125A12858A788254C8742FA;3766.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1614.
  ) 
 Here is how much of TeX's memory you used:
- 8588 strings out of 493029
- 124016 string characters out of 6136233
- 221285 words of memory out of 5000000
- 11772 multiletter control sequences out of 15000+600000
+ 8614 strings out of 493029
+ 124829 string characters out of 6136233
+ 227185 words of memory out of 5000000
+ 11785 multiletter control sequences out of 15000+600000
  73922 words of font info for 141 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,12n,34p,982b,487s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -876,10 +984,10 @@ onts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf/fonts/type1/pub
 lic/cm-super/sfrm1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/zapfch
 an/uzcmi8a.pfb>
 Output written on "Weighted Distance-based Models for Ranking Data using the R 
-Package rankdist.pdf" (25 pages, 568701 bytes).
+Package rankdist.pdf" (27 pages, 580627 bytes).
 PDF statistics:
- 585 PDF objects out of 1000 (max. 8388607)
- 515 compressed objects within 6 object streams
- 131 named destinations out of 1000 (max. 500000)
- 237 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 569 PDF objects out of 1000 (max. 8388607)
+ 498 compressed objects within 5 object streams
+ 144 named destinations out of 1000 (max. 500000)
+ 109 words of extra memory for PDF output out of 10000 (max. 10000000)
 
