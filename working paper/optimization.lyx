@@ -256,7 +256,7 @@ key "young1974axiomatization"
 \end_layout
 
 \begin_layout Standard
-When the weights are different, the local optimals of problem 
+When the weights are different, the local optimums of problem 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:rank-agg-obj"

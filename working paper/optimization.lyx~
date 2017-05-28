@@ -1413,7 +1413,7 @@ reference "subsec:-Estimating-pi0-sim"
 \begin_inset Formula $\boldsymbol{w}$
 \end_inset
 
- also remains the same but the sample size is increased to be 50000.
+ also remains the same and the sample size is chosen to be 500.
 \end_layout
 
 \begin_layout Standard

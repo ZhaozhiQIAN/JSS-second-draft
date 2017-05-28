@@ -4,44 +4,44 @@ The top-level auxiliary file: Weighted Distance-based Models for Ranking Data us
 The style file: jss.bst
 Database file #1: paper_ref.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 27 entries,
+You've used 28 entries,
             3215 wiz_defined-function locations,
-            825 strings with 9159 characters,
-and the built_in function-call counts, 20879 in all, are:
-= -- 1945
-> -- 436
+            831 strings with 9388 characters,
+and the built_in function-call counts, 21915 in all, are:
+= -- 2047
+> -- 455
 < -- 26
-+ -- 175
-- -- 139
-* -- 1421
-:= -- 2637
-add.period$ -- 104
-call.type$ -- 27
-change.case$ -- 158
-chr.to.int$ -- 28
-cite$ -- 27
-duplicate$ -- 2125
-empty$ -- 1793
-format.name$ -- 213
-if$ -- 4241
++ -- 184
+- -- 145
+* -- 1500
+:= -- 2757
+add.period$ -- 108
+call.type$ -- 28
+change.case$ -- 164
+chr.to.int$ -- 29
+cite$ -- 28
+duplicate$ -- 2224
+empty$ -- 1884
+format.name$ -- 224
+if$ -- 4453
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 262
-newline$ -- 150
-num.names$ -- 108
-pop$ -- 1017
+missing$ -- 275
+newline$ -- 155
+num.names$ -- 112
+pop$ -- 1063
 preamble$ -- 1
-purify$ -- 154
+purify$ -- 160
 quote$ -- 0
-skip$ -- 489
+skip$ -- 510
 stack$ -- 0
-substring$ -- 1849
-swap$ -- 601
-text.length$ -- 3
+substring$ -- 1972
+swap$ -- 628
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 231
+type$ -- 240
 warning$ -- 0
-while$ -- 152
+while$ -- 161
 width$ -- 0
-write$ -- 365
+write$ -- 378
